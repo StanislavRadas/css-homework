@@ -1,0 +1,14 @@
+<div class="card_form">
+    {{#each featured}}
+    <div class="card">
+        <div class="card_image_space">
+            <img src="{{photo}}" alt="Card Image" class="card_image">
+        </div>
+        <div class="card_info">
+            <h2 class="card_title">{{heading}}</h2>
+            <p class="card_text">{{info}}</p>
+            <a href="linkUrl" class="card_link">{{linkText}}</a>
+        </div>
+    </div>
+    {{/each}}
+</div>
